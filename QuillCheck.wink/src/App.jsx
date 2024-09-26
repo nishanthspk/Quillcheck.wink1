@@ -49,7 +49,7 @@ const App = () => {
           )}
         </AnimatePresence>
 
-        <p className="flex justify-center text-white text-lg font-light">
+        <p className="flex justify-center text-white lg:text-lg font-light">
           Powered by <img className="lg:h-5 lg:pl-2" src={Assets.QuillAI} alt="QuillAI" />
         </p>
       </div>
