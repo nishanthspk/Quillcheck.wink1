@@ -30,7 +30,7 @@ const Info = ({ holdersCount, currentLiquidity, lpHolders }) => {
                         <p className=' font-semibold text-md'>{lpHolders}</p>
                     </div>
                 </div>
-                <div className="border-l-2 border-white/10 mx-2 lg:mx-5 self-stretch"></div>
+                <div className="border-l-2 border-white/10 mx-2 lg:mx-5 lg:self-stretch"></div>
                 <div className="">
                     <p>Holders</p>
                     <div className=" flex justify-center gap-1 items-center">
