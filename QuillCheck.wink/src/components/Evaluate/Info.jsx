@@ -3,7 +3,7 @@ import Assets from '../Assets'
 
 const Info = ({ holdersCount, currentLiquidity, lpHolders }) => {
     return (
-        <div className="text-xs lg:text-sm  lg:space-y-4">
+        <div className="text-xs lg:text-sm space-y-2 lg:space-y-4">
             <div className=" flex justify-between">
                 <div className="">
                     <p>Holders</p>
