@@ -29,7 +29,7 @@ const Status = ({ totalScore, tokenAge }) => {
           </div>
           <div className="">
             <p className='text-[#DDDDDD]'>Ownership:</p>
-            <img className='lg:h-4' src={Assets.X} alt="X" />
+            <img className='h-3 lg:h-4' src={Assets.X} alt="X" />
           </div>
         </div>
       </div>
