@@ -70,7 +70,7 @@ const EvaluateReport = ({ onBackClick, selectedToken, tokenAddress }) => {
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-2">
             <img className='h-5' src={Assets.Avatar} alt="" />
-            <p className="lg:text-lg text-center">{valueFetch?.tokenInformation.tokenName || 'Token Name'}</p>
+            <p className="text-sm lg:text-lg text-center">{valueFetch?.tokenInformation.tokenName || 'Token Name'}</p>
             <p className='text-xs'>({valueFetch?.tokenInformation.tokenSymbol || 'Symbol'})</p>
           </div>
           <div className="flex rounded-[20px]">
