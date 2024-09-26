@@ -26,7 +26,7 @@ const SelectToken = ({ onCheckClick, setSelectedToken, setTokenAddress }) => {
           {['ETH', 'BSC', 'Polygon', 'Base'].map((token, index) => (
             <button
               key={token}
-              className={`px-2 py-1 lg:px-4 lg:py-2 rounded-md flex items-center text-[9px] lg:text-sm gap-1 lg:gap-2 ${
+              className={`px-1 py-1 lg:px-4 lg:py-2 rounded-md flex items-center text-[9px] lg:text-sm gap-1 lg:gap-2 ${
                 selectedButton === index + 1
                   ? 'bg-black text-white font-normal border border-black'
                   : 'border border-white text-white opacity-60 font-light hover:bg-black hover:opacity-100 hover:border-black'
