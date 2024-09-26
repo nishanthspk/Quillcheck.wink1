@@ -66,7 +66,7 @@ const EvaluateReport = ({ onBackClick, selectedToken, tokenAddress }) => {
       className="bg-[#18162099]/60 rounded-[10px] backdrop-filter h-full backdrop-blur-sm lg:w-[460px] lg:mx-auto jost text-white"
       style={{ boxShadow: '4px 4px 12px rgba(0, 0, 0, 0.5)' }}
     >
-      <div className="bg-[#181B2E] rounded-t-[10px] p-[10px] lg:p-[15px] lg:px-[20px]">
+      <div className="bg-[#181B2E] rounded-t-[10px] p-[10px] lg:p-[15px] px-[10px] lg:px-[20px]">
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-2">
             <img className='h-5' src={Assets.Avatar} alt="" />
