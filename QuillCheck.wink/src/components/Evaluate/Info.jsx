@@ -3,7 +3,7 @@ import Assets from '../Assets'
 
 const Info = ({ holdersCount, currentLiquidity, lpHolders }) => {
     return (
-        <div className="text-xs lg:text-sm space-y-1 lg:space-y-4">
+        <div className="text-[9px] lg:text-sm space-y-1 lg:space-y-4">
             <div className=" flex justify-between">
                 <div className="">
                     <p>Holders</p>
@@ -14,9 +14,9 @@ const Info = ({ holdersCount, currentLiquidity, lpHolders }) => {
                             </p>
                     </div>
                 </div>
-                <div className="border-l-2 border-white/10 mx-2 lg:mx-5 self-stretch"></div>
+                <div className="border-l-2 border-white/10 mx-2 lg:mx-5 lg:self-stretch"></div>
                 <div className="">
-                    <p>Current Liquidity</p>
+                    <p >Current Liquidity</p>
                     <div className=" flex justify-center gap-1 items-center">
                         <img className='h-3 lg:h-4' src={Assets.Shield} alt="" />
                         <p className=' font-semibold text-xs'>${currentLiquidity}</p>
