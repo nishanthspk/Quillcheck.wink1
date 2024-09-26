@@ -93,7 +93,7 @@ const EvaluateReport = ({ onBackClick, selectedToken, tokenAddress }) => {
       </div>
 
       <div className="p-[10px] lg:p-[20px]">
-        <div className="flex items-center justify-between h-full">
+        <div className="flex items-center justify-between lg:h-full">
           <Status totalScore={totalScore} tokenAge={tokenAge} />
           <div className="border-l-2 border-white/10 mx-5 self-stretch"></div>
           <Report />
