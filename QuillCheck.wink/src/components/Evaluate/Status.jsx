@@ -8,7 +8,7 @@ const Status = ({ totalScore, tokenAge }) => {
         <div className="space-y-2 lg:space-y-3">
           <div className="">
             <p className='text-[#DDDDDD]'>Last Known Status:</p>
-            <div className="bg-[#FFFFFF]/10 h-10 w-fit rounded-[8px] p-[10px] flex items-center gap-2">
+            <div className="bg-[#FFFFFF]/10 lg:h-10 w-fit rounded-[8px] p-[10px] flex items-center gap-2">
               <img className='h-4 lg:h-6' src={Assets.Token} alt="" />
               <p>Not a <br />Honeypot</p>
             </div>
