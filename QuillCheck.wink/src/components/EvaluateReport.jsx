@@ -85,7 +85,7 @@ const EvaluateReport = ({ onBackClick, selectedToken, tokenAddress }) => {
         <p className='text-xs text-white flex items-center'>
           {selectedToken && <span className="mr-2 bg-black p-[6px] px-4 rounded-[5px] text-sm flex gap-1 items-center">
             {selectedToken && tokenImages[selectedToken] && (
-              <img src={tokenImages[selectedToken]} alt={selectedToken} className="h-3" />
+              <img src={tokenImages[selectedToken]} alt={selectedToken} className="h-2 lg:h-3" />
             )}
             {selectedToken}</span>}
           {tokenAddress || 'Enter Token Address'}
