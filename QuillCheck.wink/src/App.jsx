@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Assets from './components/Assets';
-import SelectToken from './components/SelectToken';
-import EvaluateReport from './components/EvaluateReport';
+import Assets from './Components/Assets';
+import SelectToken from './Components/SelectToken';
+import EvaluateReport from './Components/EvaluateReport';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const App = () => {
@@ -18,9 +18,9 @@ const App = () => {
   };
 
   return (
-    <div className="h-screen bg-cover bg-center bricolage-font pb-6 bg-custom-bg jost flex justify-center items-center pt-3">
-      <div className="p-3 space-y-5">
-        <img className="w-[200px] h-[40px] mx-auto" src={Assets.QuillCheckLogo} alt="Quill Check Logo" />
+    <div className="h-screen bg-custom-bg bg-cover bg-center bricolage-font lg:pb-6  jost flex justify-center items-center pt-3">
+      <div className="lg:p-3 lg:space-y-5">
+        <img className="h-[50px] w-[150px] lg:w-[200px] lg:h-[40px] mx-auto lg:mx-auto" src={Assets.QuillCheckLogo} alt="Quill Check Logo" />
 
         {/* AnimatePresence with mode="wait" */}
         <AnimatePresence mode="wait">
