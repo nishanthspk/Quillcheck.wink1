@@ -5,7 +5,7 @@ const Status = ({ totalScore, tokenAge }) => {
   return (
     <div>
       <div className="flex gap-2 lg:gap-4 text-xs lg:text-sm">
-        <div className="space-y-3">
+        <div className="lg:space-y-3">
           <div className="">
             <p className='text-[#DDDDDD]'>Last Known Status:</p>
             <div className="bg-[#FFFFFF]/10 h-10 w-fit rounded-[8px] p-[10px] flex items-center gap-2">
