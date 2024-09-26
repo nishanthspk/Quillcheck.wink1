@@ -50,7 +50,7 @@ const App = () => {
         </AnimatePresence>
 
         <p className="flex justify-center text-white text-lg font-light">
-          Powered by <img className="lg:h-5 pl-2" src={Assets.QuillAI} alt="QuillAI" />
+          Powered by <img className="lg:h-5 lg:pl-2" src={Assets.QuillAI} alt="QuillAI" />
         </p>
       </div>
     </div>
