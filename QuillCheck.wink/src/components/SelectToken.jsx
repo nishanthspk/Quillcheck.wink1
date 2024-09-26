@@ -22,7 +22,7 @@ const SelectToken = ({ onCheckClick, setSelectedToken, setTokenAddress }) => {
     >
       <p className="text-white lg:text-4xl text-center lg:text-center">Evaluate Any Token</p>
       <div className="lg:mt-6 mt-4 space-y-3 lg:space-y-4">
-        <div className="flex justify-center space-x-2 lg:space-x-6">
+        <div className="flex justify-center space-x-1 lg:space-x-6">
           {['ETH', 'BSC', 'Polygon', 'Base'].map((token, index) => (
             <button
               key={token}
