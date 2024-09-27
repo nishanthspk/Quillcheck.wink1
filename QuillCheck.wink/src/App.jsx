@@ -3,7 +3,7 @@ import Assets from './components/Assets';
 import SelectToken from './components/SelectToken';
 import EvaluateReport from './components/EvaluateReport';
 import { motion, AnimatePresence } from 'framer-motion';
-import TwitterPlayer from './components/TwitterPlayer';
+
 
 const App = () => {
   const [showReport, setShowReport] = useState(false); // Toggle between SelectToken and EvaluateReport
