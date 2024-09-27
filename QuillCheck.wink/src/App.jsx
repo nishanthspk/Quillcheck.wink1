@@ -3,6 +3,7 @@ import Assets from './components/Assets';
 import SelectToken from './components/SelectToken';
 import EvaluateReport from './components/EvaluateReport';
 import { motion, AnimatePresence } from 'framer-motion';
+import TwitterPlayer from './components/TwitterPlayer';
 
 const App = () => {
   const [showReport, setShowReport] = useState(false); // Toggle between SelectToken and EvaluateReport
@@ -52,6 +53,9 @@ const App = () => {
         <p className="flex justify-center text-white lg:text-lg font-light">
           Powered by <img className="lg:h-5 h-4 pl-2 mt-1 lg:pl-2" src={Assets.QuillAI} alt="QuillAI" />
         </p>
+      </div>
+      <div>
+      <TwitterPlayer />
       </div>
     </div>
   );
