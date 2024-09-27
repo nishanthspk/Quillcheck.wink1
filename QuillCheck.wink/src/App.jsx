@@ -55,7 +55,7 @@ const App = () => {
         </p>
       </div>
       
-      <TwitterPlayer />
+    
       
     </div>
   );
