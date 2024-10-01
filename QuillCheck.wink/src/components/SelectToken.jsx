@@ -3,7 +3,7 @@ import Assets from './Assets';
 
 const SelectToken = ({ onCheckClick, setSelectedToken, setTokenAddress }) => {
   const [selectedButton, setSelectedButton] = useState(null);
-  const [inputValue, setInputValue] = useState(''); // New state for input value
+  const [inputValue, setInputValue] = useState(''); // New state for input 
 
   const handleButtonClick = (buttonIndex, token) => {
     setSelectedButton(buttonIndex);
